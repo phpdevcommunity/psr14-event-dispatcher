@@ -1,0 +1,26 @@
+{
+    "name": "phpdevcommunity/psr14-event-dispatcher",
+    "description": "This library provides an easy-to-use implementation of a PSR-14 event dispatcher, allowing you to manage event-driven functionality in your PHP applications.",
+    "type": "library",
+    "minimum-stability": "alpha",
+    "require": {
+        "php": ">=7.4",
+        "psr/event-dispatcher": "^1.0"
+    },
+    "require-dev": {
+        "phpdevcommunity/unitester": "^0.1.0@alpha"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PhpDevCommunity\\Listener\\": "src",
+            "Test\\PhpDevCommunity\\Listener\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "F. Michel",
+            "homepage": "https://www.phpdevcommunity.com"
+        }
+    ]
+}
