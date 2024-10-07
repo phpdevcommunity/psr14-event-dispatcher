@@ -1,7 +1,3 @@
-Ton fichier `README` donne un bon aperçu de la manière de créer et d'utiliser le dispatcher d'événements avec PSR-14, mais voici une version améliorée pour le rendre plus clair et structuré :
-
----
-
 # PSR-14 Event Dispatcher
 
 This library provides an easy-to-use implementation of a PSR-14 event dispatcher, allowing you to manage event-driven functionality in your PHP applications.
